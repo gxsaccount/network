@@ -9,27 +9,27 @@ GET：获取资源（也可以传输实体，但是不推荐）
 POST：传输实体
 <table>
   <tr>
-    <tb>方法</tb>
-    <tb>长度</tb>
-    <tb>编码</tb>
-    <tb>安全性</tb>
-    <tb>可缓存</tb>
-    <tb>幂等性</tb>
+    <td>方法</td>
+    <td>长度</td>
+    <td>编码</td>
+    <td>安全性</td>
+    <td>可缓存</td>
+    <td>幂等性</td>
   </tr>
   <tr>
     <th>GET</th>
-    <tb>长度受限</tb>
-    <tb>ASCII</tb>
-    <tb>不安全</tb>
-    <tb>可缓存</tb>
-    <tb>幂等性</tb>
+    <td>长度受限</td>
+    <td>ASCII</td>
+    <td>不安全</td>
+    <td>可缓存</td>
+    <td>幂等性</td>
   </tr>
   <tr>
     <th>POST</th>
-    <tb>不受限</tb>
-    <tb>无限制</tb>
-    <tb>安全</tb>
-    <tb>不可缓存</tb>
-    <tb>不幂等</tb>
+    <td>不受限</td>
+    <td>无限制</td>
+    <td>安全</td>
+    <td>不可缓存</td>
+    <td>不幂等</td>
   </tr>
 </table>
