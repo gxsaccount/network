@@ -8,7 +8,10 @@ http是无状态的（不保存通讯状态。）
 GET：获取资源（也可以传输实体，但是不推荐）
 POST：传输实体
 <table>
-<tr></tr>
+  <tr>
+    <th>方法</th>
+    <tb></tb>
+  </tr>
   <tr></tr>
   <tr></tr>
 </table>
