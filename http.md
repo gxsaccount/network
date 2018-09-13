@@ -18,9 +18,9 @@ POST：传输实体
   </tr>
   <tr>
     <th>GET</th>
-    <td>长度受限</td>
+    <td>长度受限1024字节</td>
     <td>ASCII</td>
-    <td>不安全</td>
+    <td>不安全，url会编码的信息如：...?key1=value1&key2=value2</td>
     <td>可缓存</td>
     <td>幂等性</td>
   </tr>
@@ -28,7 +28,7 @@ POST：传输实体
     <th>POST</th>
     <td>不受限</td>
     <td>无限制</td>
-    <td>安全</td>
+    <td>安全,把这些信息作为一个单独的消息让后台解析</td>
     <td>不可缓存</td>
     <td>不幂等</td>
   </tr>
